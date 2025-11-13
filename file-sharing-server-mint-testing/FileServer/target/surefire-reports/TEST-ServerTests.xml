@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="ServerTests" time="2.567" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/user/Desktop/file-sharing-server-mint-testing/FileServer/target/test-classes:/home/user/Desktop/file-sharing-server-mint-testing/FileServer/target/classes:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/home/user/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/user/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/home/user/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/home/user/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/user/Desktop/file-sharing-server-mint-testing/FileServer/target/surefire/surefirebooter-20251113131631355_3.jar /home/user/Desktop/file-sharing-server-mint-testing/FileServer/target/surefire 2025-11-13T13-16-31_290-jvmRun1 surefire-20251113131631355_1tmp surefire_0-20251113131631355_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/user/Desktop/file-sharing-server-mint-testing/FileServer/target/test-classes:/home/user/Desktop/file-sharing-server-mint-testing/FileServer/target/classes:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/home/user/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/user/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/home/user/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/home/user/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/home/user/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/user/Desktop/file-sharing-server-mint-testing/FileServer"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/user/Desktop/file-sharing-server-mint-testing/FileServer/target/surefire/surefirebooter-20251113131631355_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.16+8-Ubuntu-0ubuntu122.04.1"/>
+    <property name="user.name" value="user"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.8.0-87-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/user/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.16"/>
+    <property name="user.dir" value="/home/user/Desktop/file-sharing-server-mint-testing/FileServer"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="17.0.16+8-Ubuntu-0ubuntu122.04.1"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testMalformedInputDoesNotCrashServer" classname="ServerTests" time="0.028">
+    <system-out><![CDATA[Test server is ready on port 12345
+Server started. Listening on port 12345...
+Client connected: /127.0.0.1:33704
+Client disconnected: /127.0.0.1:33704
+Client connected: /127.0.0.1:33720
+Client disconnected: /127.0.0.1:33720
+Client connected: /127.0.0.1:33730
+Received from client: BADCOMMAND
+Client disconnected: /127.0.0.1:33730
+Client connected: /127.0.0.1:33734
+Received from client: CREATE
+Client disconnected: /127.0.0.1:33734
+Client connected: /127.0.0.1:33738
+Received from client: WRITE
+Client disconnected: /127.0.0.1:33738
+Client connected: /127.0.0.1:33740
+Received from client: READ
+Client disconnected: /127.0.0.1:33740
+Client connected: /127.0.0.1:33752
+Received from client: DELETE
+Client disconnected: /127.0.0.1:33752
+]]></system-out>
+  </testcase>
+  <testcase name="testServerRestartPersistence" classname="ServerTests" time="1.947">
+    <failure message="File data not persisted. Got: SUCCESS:  ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: File data not persisted. Got: SUCCESS:  ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:211)
+	at ServerTests.testServerRestartPersistence(ServerTests.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithoutCancellationToken(LauncherAdapter.java:60)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:52)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:203)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:136)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Test server is ready on port 12345
+Client connected: /127.0.0.1:33756
+Client connected: /127.0.0.1:33770
+Client disconnected: /127.0.0.1:33756
+Received from client: CREATE persist
+CREATE response: SUCCESS: File 'persist' created.
+Client disconnected: /127.0.0.1:33770
+Client connected: /127.0.0.1:33782
+Received from client: WRITE persist saveddata
+WRITE response: ERROR: ERROR: file too large
+Shutting down server...
+Client disconnected: /127.0.0.1:33782
+Server stopped successfully.
+Test server stopped
+Test server is ready on port 12345
+Client connected: /127.0.0.1:33788
+Client connected: /127.0.0.1:33792
+Client disconnected: /127.0.0.1:33788
+Received from client: READ persist
+READ response: SUCCESS: 
+Client disconnected: /127.0.0.1:33792
+]]></system-out>
+    <system-err><![CDATA[ERROR: Port 12345 is already in use. Cannot start server.
+Try: lsof -i :12345 to find the process using this port
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.Net.bind(Net.java:544)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:167)
+	at ca.concordia.server.FileServer.runServer(FileServer.java:64)
+	at ca.concordia.server.FileServer.lambda$start$0(FileServer.java:29)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+java.lang.Exception: ERROR: file too large
+	at ca.concordia.filesystem.FileSystemManager.writeFile(FileSystemManager.java:280)
+	at ca.concordia.server.ServerThread.run(ServerThread.java:81)
+ERROR: Port 12345 is already in use. Cannot start server.
+Try: lsof -i :12345 to find the process using this port
+java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.Net.bind(Net.java:544)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:167)
+	at ca.concordia.server.FileServer.runServer(FileServer.java:64)
+	at ca.concordia.server.FileServer.lambda$start$0(FileServer.java:29)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></system-err>
+  </testcase>
+  <testcase name="testServerRecoversAfterErrorCommand" classname="ServerTests" time="0.004">
+    <system-out><![CDATA[Client connected: /127.0.0.1:33796
+Received from client: WRIT invalid
+Client disconnected: /127.0.0.1:33796
+Client connected: /127.0.0.1:33810
+Received from client: LIST
+]]></system-out>
+  </testcase>
+  <testcase name="testHandlesHundredsOfClientsQuickly" classname="ServerTests" time="0.045">
+    <system-out><![CDATA[Client disconnected: /127.0.0.1:33810
+Client connected: /127.0.0.1:33812
+Client connected: /127.0.0.1:33824
+Received from client: LIST
+Client connected: /127.0.0.1:33826
+Client disconnected: /127.0.0.1:33812
+Received from client: LIST
+Client connected: /127.0.0.1:33830
+Client disconnected: /127.0.0.1:33824
+Received from client: LIST
+Client connected: /127.0.0.1:33842
+Received from client: LIST
+Client connected: /127.0.0.1:33858
+Client disconnected: /127.0.0.1:33826
+Received from client: LIST
+Client connected: /127.0.0.1:33868
+Received from client: LIST
+Client disconnected: /127.0.0.1:33830
+Client disconnected: /127.0.0.1:33842
+Client connected: /127.0.0.1:33878
+Client connected: /127.0.0.1:33888
+Received from client: LIST
+Received from client: LIST
+Client disconnected: /127.0.0.1:33858
+Client connected: /127.0.0.1:33898
+Received from client: LIST
+Client disconnected: /127.0.0.1:33868
+Client disconnected: /127.0.0.1:33878
+Client connected: /127.0.0.1:33904
+Received from client: LIST
+Client connected: /127.0.0.1:33918
+Client disconnected: /127.0.0.1:33888
+Client disconnected: /127.0.0.1:33898
+Received from client: LIST
+Client connected: /127.0.0.1:33928
+Client disconnected: /127.0.0.1:33904
+Client connected: /127.0.0.1:33938
+Received from client: LIST
+Received from client: LIST
+Client connected: /127.0.0.1:33946
+Client connected: /127.0.0.1:33948
+Received from client: LIST
+Client disconnected: /127.0.0.1:33918
+Client disconnected: /127.0.0.1:33928
+Client connected: /127.0.0.1:33958
+Received from client: LIST
+Received from client: LIST
+Client disconnected: /127.0.0.1:33946
+Client disconnected: /127.0.0.1:33938
+Client connected: /127.0.0.1:33964
+Received from client: LIST
+Client disconnected: /127.0.0.1:33948
+Client connected: /127.0.0.1:33980
+Client disconnected: /127.0.0.1:33958
+Received from client: LIST
+Client connected: /127.0.0.1:33996
+Received from client: LIST
+Client connected: /127.0.0.1:34010
+Client disconnected: /127.0.0.1:33980
+Client disconnected: /127.0.0.1:33964
+Received from client: LIST
+Client connected: /127.0.0.1:34008
+Client disconnected: /127.0.0.1:33996
+Received from client: LIST
+Client connected: /127.0.0.1:34024
+Received from client: LIST
+Client disconnected: /127.0.0.1:34010
+Client connected: /127.0.0.1:34026
+Client disconnected: /127.0.0.1:34008
+Client connected: /127.0.0.1:34038
+Received from client: LIST
+Client connected: /127.0.0.1:34062
+Received from client: LIST
+Received from client: LIST
+Client connected: /127.0.0.1:34054
+Client connected: /127.0.0.1:34072
+Client disconnected: /127.0.0.1:34024
+Received from client: LIST
+Client connected: /127.0.0.1:34080
+Received from client: LIST
+Client disconnected: /127.0.0.1:34026
+Received from client: LIST
+Client connected: /127.0.0.1:34096
+Client disconnected: /127.0.0.1:34072
+Client disconnected: /127.0.0.1:34038
+Client disconnected: /127.0.0.1:34054
+Received from client: LIST
+Client connected: /127.0.0.1:34106
+Client disconnected: /127.0.0.1:34062
+Received from client: LIST
+Client connected: /127.0.0.1:34122
+Received from client: LIST
+Client connected: /127.0.0.1:34124
+Received from client: LIST
+Client disconnected: /127.0.0.1:34106
+Client disconnected: /127.0.0.1:34096
+Client connected: /127.0.0.1:34126
+Client disconnected: /127.0.0.1:34122
+Client connected: /127.0.0.1:34140
+Received from client: LIST
+Client disconnected: /127.0.0.1:34080
+Received from client: LIST
+Client connected: /127.0.0.1:34144
+Received from client: LIST
+Client disconnected: /127.0.0.1:34124
+Client disconnected: /127.0.0.1:34126
+Client disconnected: /127.0.0.1:34140
+Client connected: /127.0.0.1:34150
+Client connected: /127.0.0.1:34152
+Client connected: /127.0.0.1:34160
+Client connected: /127.0.0.1:34164
+Received from client: LIST
+Received from client: LIST
+Client connected: /127.0.0.1:34180
+Received from client: LIST
+Received from client: LIST
+Client connected: /127.0.0.1:34184
+Client disconnected: /127.0.0.1:34160
+Client disconnected: /127.0.0.1:34144
+Received from client: LIST
+Received from client: LIST
+Client connected: /127.0.0.1:34192
+Client disconnected: /127.0.0.1:34184
+Client disconnected: /127.0.0.1:34150
+Client disconnected: /127.0.0.1:34180
+Client disconnected: /127.0.0.1:34164
+Client connected: /127.0.0.1:34202
+Received from client: LIST
+Client connected: /127.0.0.1:34218
+Received from client: LIST
+Client disconnected: /127.0.0.1:34152
+Received from client: LIST
+Client connected: /127.0.0.1:34234
+Client disconnected: /127.0.0.1:34202
+Received from client: LIST
+Client disconnected: /127.0.0.1:34192
+Client disconnected: /127.0.0.1:34218
+Client connected: /127.0.0.1:34224
+Received from client: LIST
+Client connected: /127.0.0.1:34250
+Received from client: LIST
+Client disconnected: /127.0.0.1:34234
+Client disconnected: /127.0.0.1:34224
+Client connected: /127.0.0.1:34264
+Received from client: LIST
+Client connected: /127.0.0.1:34284
+Received from client: LIST
+Client connected: /127.0.0.1:34280
+Client disconnected: /127.0.0.1:34250
+Received from client: LIST
+Client connected: /127.0.0.1:34290
+Received from client: LIST
+Client connected: /127.0.0.1:34306
+Client disconnected: /127.0.0.1:34264
+Received from client: LIST
+Client connected: /127.0.0.1:34322
+Client disconnected: /127.0.0.1:34284
+Received from client: LIST
+Client disconnected: /127.0.0.1:34290
+Client connected: /127.0.0.1:34338
+Client disconnected: /127.0.0.1:34306
+Client connected: /127.0.0.1:34346
+Received from client: LIST
+Client disconnected: /127.0.0.1:34280
+Received from client: LIST
+Client connected: /127.0.0.1:34360
+Received from client: LIST
+Client connected: /127.0.0.1:34374
+Client disconnected: /127.0.0.1:34338
+Client disconnected: /127.0.0.1:34322
+Received from client: LIST
+Client disconnected: /127.0.0.1:34346
+Client connected: /127.0.0.1:34380
+Client connected: /127.0.0.1:34396
+Client disconnected: /127.0.0.1:34360
+Client connected: /127.0.0.1:34412
+Received from client: LIST
+Client connected: /127.0.0.1:34422
+Received from client: LIST
+Received from client: LIST
+Received from client: LIST
+Client connected: /127.0.0.1:34426
+Received from client: LIST
+Client disconnected: /127.0.0.1:34374
+Client disconnected: /127.0.0.1:34412
+Client disconnected: /127.0.0.1:34396
+Received from client: LIST
+Client disconnected: /127.0.0.1:34380
+Client disconnected: /127.0.0.1:34422
+Client disconnected: /127.0.0.1:34426
+Client connected: /127.0.0.1:34428
+Client connected: /127.0.0.1:34430
+Received from client: LIST
+Client connected: /127.0.0.1:34444
+Received from client: LIST
+Client connected: /127.0.0.1:34454
+Client disconnected: /127.0.0.1:34428
+Received from client: LIST
+Client disconnected: /127.0.0.1:34430
+Client disconnected: /127.0.0.1:34444
+Client connected: /127.0.0.1:34466
+Received from client: LIST
+Client connected: /127.0.0.1:34472
+Received from client: LIST
+Client connected: /127.0.0.1:34480
+Client disconnected: /127.0.0.1:34454
+Received from client: LIST
+Client connected: /127.0.0.1:34492
+Client disconnected: /127.0.0.1:34466
+Client connected: /127.0.0.1:34496
+Received from client: LIST
+Client disconnected: /127.0.0.1:34472
+Received from client: LIST
+Received from client: LIST
+Client disconnected: /127.0.0.1:34480
+Client disconnected: /127.0.0.1:34496
+Client disconnected: /127.0.0.1:34492
+Client connected: /127.0.0.1:34502
+Client connected: /127.0.0.1:34512
+Client connected: /127.0.0.1:34518
+Received from client: LIST
+Received from client: LIST
+Client connected: /127.0.0.1:34524
+Client disconnected: /127.0.0.1:34502
+Received from client: LIST
+Client connected: /127.0.0.1:34528
+Client disconnected: /127.0.0.1:34512
+Received from client: LIST
+Client connected: /127.0.0.1:34544
+Client connected: /127.0.0.1:34542
+Received from client: LIST
+Received from client: LIST
+Client connected: /127.0.0.1:34552
+Received from client: LIST
+Client connected: /127.0.0.1:34562
+Client disconnected: /127.0.0.1:34518
+Client disconnected: /127.0.0.1:34524
+Client disconnected: /127.0.0.1:34528
+Client disconnected: /127.0.0.1:34542
+Received from client: LIST
+Client connected: /127.0.0.1:34572
+Client disconnected: /127.0.0.1:34544
+Received from client: LIST
+Client disconnected: /127.0.0.1:34552
+Client connected: /127.0.0.1:34580
+Client disconnected: /127.0.0.1:34562
+Client connected: /127.0.0.1:34584
+Received from client: LIST
+Received from client: LIST
+Client connected: /127.0.0.1:34590
+Received from client: LIST
+Client disconnected: /127.0.0.1:34572
+Client connected: /127.0.0.1:34604
+Client disconnected: /127.0.0.1:34580
+Client connected: /127.0.0.1:34610
+Client disconnected: /127.0.0.1:34584
+Received from client: LIST
+Received from client: LIST
+Client connected: /127.0.0.1:34618
+Client disconnected: /127.0.0.1:34590
+Received from client: LIST
+Client connected: /127.0.0.1:34624
+Client disconnected: /127.0.0.1:34604
+Received from client: LIST
+Client connected: /127.0.0.1:34638
+Client disconnected: /127.0.0.1:34610
+Received from client: LIST
+Client connected: /127.0.0.1:34646
+Received from client: LIST
+Client connected: /127.0.0.1:34658
+Client disconnected: /127.0.0.1:34618
+Client disconnected: /127.0.0.1:34624
+Client connected: /127.0.0.1:34666
+Received from client: LIST
+Client disconnected: /127.0.0.1:34638
+Received from client: LIST
+Client connected: /127.0.0.1:34670
+Client disconnected: /127.0.0.1:34646
+Received from client: LIST
+Client connected: /127.0.0.1:34680
+Client disconnected: /127.0.0.1:34658
+Received from client: LIST
+Client disconnected: /127.0.0.1:34666
+Client connected: /127.0.0.1:34690
+Received from client: LIST
+Client disconnected: /127.0.0.1:34670
+Client connected: /127.0.0.1:34692
+Received from client: LIST
+Client connected: /127.0.0.1:34700
+Client disconnected: /127.0.0.1:34680
+Client connected: /127.0.0.1:34704
+Received from client: LIST
+Client disconnected: /127.0.0.1:34690
+Client connected: /127.0.0.1:34716
+Received from client: LIST
+Received from client: LIST
+Client disconnected: /127.0.0.1:34692
+Received from client: LIST
+Client disconnected: /127.0.0.1:34700
+Client disconnected: /127.0.0.1:34704
+Client disconnected: /127.0.0.1:34716
+]]></system-out>
+  </testcase>
+</testsuite>
